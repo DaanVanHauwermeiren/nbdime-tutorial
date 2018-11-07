@@ -18,9 +18,14 @@ Jupyter notebooks are useful, rich media documents stored in a plain text JSON f
 
 [reference](https://nbdime.readthedocs.io/en/latest/index.html)
 
-## quickstart
+## installation
 
+    pip install nbdime
 
+```Note: when using anaconda as your python installation toolbox, make sure you install it in the desired environment. If needed, switch to the desired environment by:```
+
+    source activate ENV_NAME #linux, macos
+    activate ENV_NAME #windows
 
 ## console commands
 
