@@ -27,6 +27,8 @@ Jupyter notebooks are useful, rich media documents stored in a plain text JSON f
     source activate ENV_NAME #linux, macos
     activate ENV_NAME #windows
 
+[reference](https://nbdime.readthedocs.io/en/latest/index.html#quickstart)
+
 ## console commands
 
 https://nbdime.readthedocs.io/en/latest/cli.html
