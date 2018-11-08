@@ -5,6 +5,16 @@ nbdime
 Tools for diffing and merging of Jupyter notebooks.
 https://github.com/jupyter/nbdime
 
+## dependencies
+
+This tutorial is written and tested on the folowwing versions:
+
+    python      3.6.6
+    notebook    5.7.0
+    nbdime      1.0.3
+
+(reference)[https://nbdime.readthedocs.io/en/latest/installing.html#dependencies]
+
 ## why
 
 Jupyter notebooks are useful, rich media documents stored in a plain text JSON format. This format is relatively easy to parse. However, primitive line-based diff and merge tools do not handle well the logical structure of notebook documents
@@ -22,7 +32,7 @@ Jupyter notebooks are useful, rich media documents stored in a plain text JSON f
 
     pip install nbdime
 
-```Note: when using anaconda as your python installation toolbox, make sure you install it in the desired environment. If needed, switch to the desired environment by:```
+```Note: when using anaconda as your python installation toolbox, make sure you install it in the desired environment. Because of integration into the jupyter extensions, installation in the same environment as your jupyter notebook installation is strongly advised. If you are unsure which environment this is, it is probably the base environment. If needed, switch to the desired environment by:```
 
     source activate ENV_NAME #linux, macos
     activate ENV_NAME #windows
