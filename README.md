@@ -7,10 +7,16 @@ https://github.com/jupyter/nbdime
 
 ## dependencies
 
-This tutorial is written and tested on the folowwing versions:
+This tutorial is written and tested on the following versions:
 
     python      3.6.6
     notebook    5.7.0
+    nbdime      1.0.3
+
+This does not work with the following combination:
+
+    python      2.7.12
+    notebook    4.2.3
     nbdime      1.0.3
 
 (reference)[https://nbdime.readthedocs.io/en/latest/installing.html#dependencies]
