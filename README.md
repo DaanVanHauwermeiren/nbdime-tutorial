@@ -145,6 +145,31 @@ Clicking the checkpoint button will similarly show the diff between the checkpoi
 
 ## version control integration (GIT)
 
+Git integration of nbdime is supported in two ways:
+
+* through drivers for diff and merge operations, where nbdime takes on the responsibility for performing the diff/merge:
+
+    * Diff driver
+    * Merge driver
+
+* through defining nbdime as diff and merge tools, which allow nbdime to display the diff/merge to the user without having to actually depend on git:
+
+Diff web tool
+Merge web tool
+
+Configure git integration by editing the .gitconfig (or .git/config) and .gitattributes in each git repository or in the home/etc directory for global effect.
+
+To configure all diff/merge drivers and tools, simply call:
+
+    # locally in one git repo
+    nbdime config-git --enable
+    # global / system configuration
+    nbdime config-git --enable --global|--system
+
+Once configured, the diff/merge drivers should simply work out of the box. For example, the normal git diff command should give you the standard diff for any non-notebook files, but use nbdime’s command-line diff for all ```.ipynb``` files. Nbdime will also be used for all merges on notebook files (no specific commands needed).
+
+For more details, see the reference
+
 [reference](https://nbdime.readthedocs.io/en/latest/vcs.html)
 
 ## configuration
