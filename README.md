@@ -1,5 +1,5 @@
 # nbdime-tutorial
-tutorials for usage of nbdime
+tutorial for usage of nbdime
 
 nbdime
 Tools for diffing and merging of Jupyter notebooks.
@@ -19,7 +19,7 @@ This does not work with the following combination:
     notebook    4.2.3
     nbdime      1.0.3
 
-(reference)[https://nbdime.readthedocs.io/en/latest/installing.html#dependencies]
+[reference](https://nbdime.readthedocs.io/en/latest/installing.html#dependencies)
 
 ## why
 
